@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "apex",
+	"version": "${version}",
+	"custom": {
+		"gitCommit": "${gitCommit}"
+	},
+	"name": "Apex",
+	"description": "A Multi Server use minecraft client",
+	"authors": [
+		"Apex Developers"
+	],
+	"contact": {
+		"homepage": "https://getapex.club/",
+		"sources": "https://github.com/ApexClint"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/apex/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"lol.apex.Apex"
+		]
+	},
+	"mixins": [
+		"apex.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"accessWidener": "apex.accesswidener"
+}

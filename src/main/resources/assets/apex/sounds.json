@@ -1,0 +1,32 @@
+{
+  "smooth_on": {
+    "sounds": ["apex:smooth_on"]
+  },
+  "smooth_off": {
+    "sounds": ["apex:smooth_on"]
+  },
+  "kitten_off": {
+    "sounds": ["apex:kitten_off"]
+  },
+  "kitten_on": {
+    "sounds": ["apex:kitten_on"]
+  },
+  "ui_hover": {
+    "sounds": ["apex:ui_hover"]
+  },
+  "ui_slider_change": {
+    "sounds": ["apex:ui_slider_change"]
+  },
+  "notification_notify": {
+    "sounds": ["apex:notification_notify"]
+  },
+  "context_open": {
+    "sounds": ["apex:context_open"]
+  },
+  "context_close": {  
+    "sounds": ["apex:context_close"]
+  },
+  "ui_change": {
+    "sounds": ["apex:ui_change"]
+  }
+}

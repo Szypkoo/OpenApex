@@ -1,0 +1,50 @@
+{
+  "required": true,
+  "package": "lol.apex.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AbstractBlockMixin",
+    "ArmorFeatureRendererMixin",
+    "CameraMixin",
+    "ClientBrandRetrieverMixin",
+    "ClientConnectionMixin",
+    "ClientPlayerEntityMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "ClientWorldMixin",
+    "CommonPingS2CPacketAccessor",
+    "EntityRendererMixin",
+    "EntityVelocityUpdateS2CPacketAccessor",
+    "GlCommandEncoderMixin",
+    "InGameHudMixin",
+    "InGameOverlayMixin",
+    "IPlayerInteractEntityC2SPacket",
+    "ItemUseRendererMixin",
+    "KeyboardInputMixin",
+    "LivingEntityAccessor",
+    "LivingEntityMixin",
+    "MinecraftClientMixin",
+    "MouseMixin",
+    "PlayerEntityMixin",
+    "PlayerEntityRendererMixin",
+    "PlayerMoveC2SPacketAccessor",
+    "RenderTickCounterDynamicMixin",
+    "ScreenAccessor",
+    "SendPacketMixin",
+    "SendPacketMixinAccessor",
+    "TitleScreenMixin",
+    "PlayerListEntryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "client": [
+    "FogRendererMixin",
+    "GameRendererMixin",
+    "MultiplayerScreenMixin",
+    "WorldRendererMixin"
+  ]
+}
